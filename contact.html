@@ -14,6 +14,76 @@
 </head>
 
 <body>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+				<form action="Sign_in.html">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body">
+						<p>您必須完整閱讀註冊條款, 點擊"同意"後才能繼續接下來的註冊程序<br></p>
+						<p>
+							歡迎使用輔仁大學資訊管理學系（以下稱本單位）所提供之資訊專題管理系統(http://project.im.fju.edu.tw)，依據個人資料保護法（以下稱個資法）第八條第一項規定，為了確保使用者之個人資料、隱私及權益之保護，當您已閱讀並同意「輔仁大學資訊管理學系個人資料保護法告知內容」時，即表示您願意以電子文件之方式行使法律所賦予同意之權利，並具有書面同意之效果，若不同意請離開此網頁，如需服務請洽本單位之服務人員。 (以下為本單位依「個人資料保護法」規定，必須向您告知的各項聲明，請您務必詳閱。)</li>
+						</p>	
+							<ul>1. 個人資料蒐集目的：
+								<li>（一）依照輔仁大學資訊管理學系所舉辦之資訊專題課程期間之行為均屬於本系統之個資蒐集目的。</li>
+								<li>（二）上述之相關業務所定義之工作範圍。</li>
+								
+							</ul>
+							<li>
+							<ul>2. 個人資料蒐集來源：
+								<li>（一）輔仁大學學校財團法人所提供LDAP相關服務之電磁紀錄
+								<li>（二）您於註冊程序時所填寫之個人聯絡資料
+							</ul>
+							<ul>
+								3. 個人資料蒐集類別：
+								<li>（一）識別類（例如：中文姓名、學生或員工證號、聯絡電話號碼、地址、性別、電子郵遞地址）
+								<li>（二）特徵類（例如：出生年月日、國籍、個人照片、筆跡與紙本文件）等。
+							</ul>
+							<ul>	
+								4. 個人資料利用之期間、地區、對象及方式：
+								<li>（一）期間：利用期間為本單位或業務所必須之保存期間。
+								<li>（二）地區：您的個人資料將用於本單位提供服務之地區。
+								<li>（三）對象：本單位經手資訊專題課程之相關行政人員、依法有調查權機關。
+								<li>（四）方式：電子文件、紙本，或以自動化機器或其他非自動化之利用方式。
+							</ul>
+							<ul>	
+								5. 依據個資法第三條規定，您就本單位保有您的個人資料得行使下列權利：
+								<li>（一）查詢、閱覽、複本、補充、更正、請求停止蒐集、請求停止處理、請求停止利用、請求刪除等權利。
+							</ul>
+							<ul>
+								6. 個資保護之措施：
+								本單位已採取資訊安全保護措施，並且針對個資保護有以下應盡之措施：
+								<li>（一）配置管理之人員及相當資源
+								<li>（二）界定個人資料之範圍
+								<li>（三）個人資料之風險評估及管理機制
+								<li>（四）事故之預防、通報及應變機制
+								<li>（五）個人資料蒐集、處理及利用之內部管理程序
+								<li>（六）資料安全管理以及人員管理
+								<li>（七）認知宣導及教育訓練
+								<li>（八）設備安全管理
+								<li>（九）資料安全稽核機制
+								<li>（十）使用紀錄、軌跡資料及證據保存
+								<li>（十一）個人資料安全維護之整體持續改善
+							</ul>						
+						</p>
+					</div>
+					<div class="modal-footer">
+						<input type="button" onclick="javascript:location.href='Sign_in.html'" class="btn btn-default" value="同意">
+						<button type="button" class="btn btn-default" data-dismiss="modal">不同意</button>
+					</div>
+				</div>
+				</form>
+
+			</div>
+		</div>
+
+
+
 
 	<div class="super_container">
 
@@ -25,7 +95,7 @@
 					<div class="row">
 						<div class="col">
 							<div class="header_content d-flex flex-row align-items-center justify-content-start">
-								<div class="logo"><a href="#">登入與註冊</a></div>
+								<div class="logo"><a href="#">登入</a></div>
 								<nav class="main_nav">
 									<ul>
 										<li class="hassubs active">
@@ -53,67 +123,6 @@
 											<div class="container">
 												<!-- Trigger the modal with a button -->
 												<button type="button" class="btn btn-light" data-toggle="modal" data-target="#myModal">註冊</button>
-
-												<!-- Modal -->
-												<div class="modal fade" id="myModal" role="dialog">
-													<div class="modal-dialog">
-
-														<!-- Modal content-->
-														<div class="modal-content">
-															<div class="modal-header">
-																<button type="button" class="close" data-dismiss="modal">&times;</button>
-																<h4 class="modal-title">同意註冊條款</h4>
-															</div>
-															<div class="modal-body">
-																<p>您必須完整閱讀註冊條款, 點擊"同意"後才能繼續接下來的註冊程序<br></p>
-																<p>
-																		歡迎使用輔仁大學資訊管理學系（以下稱本單位）所提供之資訊專題管理系統(http://project.im.fju.edu.tw)，依據個人資料保護法（以下稱個資法）第八條第一項規定，為了確保使用者之個人資料、隱私及權益之保護，當您已閱讀並同意「輔仁大學資訊管理學系個人資料保護法告知內容」時，即表示您願意以電子文件之方式行使法律所賦予同意之權利，並具有書面同意之效果，若不同意請離開此網頁，如需服務請洽本單位之服務人員。 (以下為本單位依「個人資料保護法」規定，必須向您告知的各項聲明，請您務必詳閱。)
-
-																		1. 個人資料蒐集目的：
-																		（一）依照輔仁大學資訊管理學系所舉辦之資訊專題課程期間之行為均屬於本系統之個資蒐集目的。
-																		（二）上述之相關業務所定義之工作範圍。
-																		
-																		2. 個人資料蒐集來源
-																		（一）輔仁大學學校財團法人所提供LDAP相關服務之電磁紀錄
-																		（二）您於註冊程序時所填寫之個人聯絡資料
-																		
-																		3. 個人資料蒐集類別：
-																		（一）識別類（例如：中文姓名、學生或員工證號、聯絡電話號碼、地址、性別、電子郵遞地址）
-																		（二）特徵類（例如：出生年月日、國籍、個人照片、筆跡與紙本文件）等。
-																		
-																		4. 個人資料利用之期間、地區、對象及方式：
-																		（一）期間：利用期間為本單位或業務所必須之保存期間。
-																		（二）地區：您的個人資料將用於本單位提供服務之地區。
-																		（三）對象：本單位經手資訊專題課程之相關行政人員、依法有調查權機關。
-																		（四）方式：電子文件、紙本，或以自動化機器或其他非自動化之利用方式。
-																		
-																		5. 依據個資法第三條規定，您就本單位保有您的個人資料得行使下列權利：
-																		（一）查詢、閱覽、複本、補充、更正、請求停止蒐集、請求停止處理、請求停止利用、請求刪除等權利。
-																		
-																		6. 個資保護之措施：
-																		本單位已採取資訊安全保護措施，並且針對個資保護有以下應盡之措施：
-																		（一）配置管理之人員及相當資源
-																		（二）界定個人資料之範圍
-																		（三）個人資料之風險評估及管理機制
-																		（四）事故之預防、通報及應變機制
-																		（五）個人資料蒐集、處理及利用之內部管理程序
-																		（六）資料安全管理以及人員管理
-																		（七）認知宣導及教育訓練
-																		（八）設備安全管理
-																		（九）資料安全稽核機制
-																		（十）使用紀錄、軌跡資料及證據保存
-																		（十一）個人資料安全維護之整體持續改善
-																							
-																</p>
-															</div>
-															<div class="modal-footer">
-																<button type="button" class="btn btn-default" data-dismiss="modal">同意</button>
-																<button type="button" class="btn btn-default" data-dismiss="modal">不同意</button>
-															</div>
-														</div>
-
-													</div>
-												</div>
 
 											</div>
 										</li>
@@ -162,6 +171,8 @@
 					</div>
 				</div>
 			</div>
+
+			
 
 			<!-- Search Panel -->
 			<div class="search_panel trans_300">
