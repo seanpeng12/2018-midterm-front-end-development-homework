@@ -880,6 +880,11 @@ section
 /*********************************
 6. Contact
 *********************************/
+.special_contact p
+{
+	font-weight:bold;
+	font-size: 24px;
+}
 
 .contact
 {
