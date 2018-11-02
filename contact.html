@@ -16,8 +16,8 @@
 <body>
 	<!-- Modal -->
 	<div class="modal fade bg-example-modal-lg" id="myModal" role="dialog">
-			<div class="modal-dialog modal-lg">
-				<form action="Sign_in.html">
+		<div class="modal-dialog modal-lg">
+			<form action="Sign_in.html">
 				<!-- Modal content-->
 				<div class="modal-content">
 					<div class="modal-header">
@@ -27,14 +27,15 @@
 					<div class="modal-body">
 						<p>您必須完整閱讀註冊條款, 點擊"同意"後才能繼續接下來的註冊程序<br></p>
 						<p>
-							歡迎使用輔仁大學資訊管理學系（以下稱本單位）所提供之資訊專題管理系統(http://project.im.fju.edu.tw)，依據個人資料保護法（以下稱個資法）第八條第一項規定，為了確保使用者之個人資料、隱私及權益之保護，當您已閱讀並同意「輔仁大學資訊管理學系個人資料保護法告知內容」時，即表示您願意以電子文件之方式行使法律所賦予同意之權利，並具有書面同意之效果，若不同意請離開此網頁，如需服務請洽本單位之服務人員。 (以下為本單位依「個人資料保護法」規定，必須向您告知的各項聲明，請您務必詳閱。)</li>
-						</p>	
-							<ul>1. 個人資料蒐集目的：
-								<li>（一）依照輔仁大學資訊管理學系所舉辦之資訊專題課程期間之行為均屬於本系統之個資蒐集目的。</li>
-								<li>（二）上述之相關業務所定義之工作範圍。</li>
-								
-							</ul>
-							<li>
+							歡迎使用輔仁大學資訊管理學系（以下稱本單位）所提供之資訊專題管理系統(http://project.im.fju.edu.tw)，依據個人資料保護法（以下稱個資法）第八條第一項規定，為了確保使用者之個人資料、隱私及權益之保護，當您已閱讀並同意「輔仁大學資訊管理學系個人資料保護法告知內容」時，即表示您願意以電子文件之方式行使法律所賦予同意之權利，並具有書面同意之效果，若不同意請離開此網頁，如需服務請洽本單位之服務人員。
+							(以下為本單位依「個人資料保護法」規定，必須向您告知的各項聲明，請您務必詳閱。)</li>
+						</p>
+						<ul>1. 個人資料蒐集目的：
+							<li>（一）依照輔仁大學資訊管理學系所舉辦之資訊專題課程期間之行為均屬於本系統之個資蒐集目的。</li>
+							<li>（二）上述之相關業務所定義之工作範圍。</li>
+
+						</ul>
+						<li>
 							<ul>2. 個人資料蒐集來源：
 								<li>（一）輔仁大學學校財團法人所提供LDAP相關服務之電磁紀錄
 								<li>（二）您於註冊程序時所填寫之個人聯絡資料
@@ -44,14 +45,14 @@
 								<li>（一）識別類（例如：中文姓名、學生或員工證號、聯絡電話號碼、地址、性別、電子郵遞地址）
 								<li>（二）特徵類（例如：出生年月日、國籍、個人照片、筆跡與紙本文件）等。
 							</ul>
-							<ul>	
+							<ul>
 								4. 個人資料利用之期間、地區、對象及方式：
 								<li>（一）期間：利用期間為本單位或業務所必須之保存期間。
 								<li>（二）地區：您的個人資料將用於本單位提供服務之地區。
 								<li>（三）對象：本單位經手資訊專題課程之相關行政人員、依法有調查權機關。
 								<li>（四）方式：電子文件、紙本，或以自動化機器或其他非自動化之利用方式。
 							</ul>
-							<ul>	
+							<ul>
 								5. 依據個資法第三條規定，您就本單位保有您的個人資料得行使下列權利：
 								<li>（一）查詢、閱覽、複本、補充、更正、請求停止蒐集、請求停止處理、請求停止利用、請求刪除等權利。
 							</ul>
@@ -69,18 +70,18 @@
 								<li>（九）資料安全稽核機制
 								<li>（十）使用紀錄、軌跡資料及證據保存
 								<li>（十一）個人資料安全維護之整體持續改善
-							</ul>						
-						</p>
+							</ul>
+							</p>
 					</div>
 					<div class="modal-footer">
 						<input type="button" onclick="javascript:location.href='Sign_in.html'" class="btn btn-default" value="同意">
 						<button type="button" class="btn btn-default" data-dismiss="modal">不同意</button>
 					</div>
 				</div>
-				</form>
+			</form>
 
-			</div>
 		</div>
+	</div>
 
 
 
@@ -172,7 +173,7 @@
 				</div>
 			</div>
 
-			
+
 
 			<!-- Search Panel -->
 			<div class="search_panel trans_300">
@@ -263,7 +264,7 @@
 									<div class="breadcrumbs">
 										<ul>
 											<li><a href="index.html">Home</a></li>
-											<li>Contact</li>
+											<li>登入</li>
 										</ul>
 									</div>
 								</div>
@@ -287,40 +288,49 @@
 								<div class="section_subtitle">LOG IN</div>
 								<div class="section_title">
 									<p>請選擇登入身分<br></p>
-									<input type="radio" name="profile_id" value="teacher" checked required>教師&nbsp
-									<input type="radio" name="profile_id" value="student">學生&nbsp
-									<input type="radio" name="profile_id" value="admin">管理者&nbsp
+									<input type="radio" name="profile_id" id="teacher" checked required>教師&nbsp
+									<input type="radio" name="profile_id" id="student">學生&nbsp
+									<input type="radio" name="profile_id" id="admin">管理者&nbsp
 					</form>
 				</div>
 				<div class="contact_form_container">
-					<form action="Login_success.html" id="contact_form" class="contact_form">
+					<form id="contact_form" class="contact_form">
 						<div class="row">
-							<div class="col-xl-6">
+							<div class="col-xl-12">
 								<!-- Name -->
-								<label for="contact_name">First Name*</label>
+								<label for="contact_name">帳號*</label>
 								<input type="text" id="contact_name" class="contact_input" required="required">
 							</div>
-							<div class="col-xl-6 last_name_col">
+							<div class="col-xl-12 last_name_col">
 								<!-- Last Name -->
-								<label for="contact_last_name">Last Name*</label>
+								<label for="contact_last_name">密碼*</label>
 								<input type="text" id="contact_last_name" class="contact_input" required="required">
 							</div>
 						</div>
-						<div>
-							<!-- Subject -->
-							<label for="contact_company">Subject</label>
-							<input type="text" id="contact_company" class="contact_input">
-						</div>
-						<div>
-							<!-- Subject -->
-							<label for="contact_company">密碼</label>
-							<input type="text" id="contact_company" class="contact_input">
-						</div>
-						<div>
-							<label for="contact_textarea">Message*</label>
-							<textarea id="contact_textarea" class="contact_input contact_textarea" required="required"></textarea>
-						</div>
-						<button class="button contact_button" type="submit"><span>Send Message</span></button>
+								<!-- JSP跳轉(無post數值(需添加)) -->
+						<script>
+
+								function output()
+								{
+									if(document.getElementById("teacher").checked)
+									{
+										window.location="teacher.html";
+									}
+								 
+									if(document.getElementById("student").checked)
+									{
+										window.location="student.html";
+									}
+									if(document.getElementById("admin").checked)
+									{
+										window.location="admin.html";
+										
+									}
+								}
+						</script>
+						
+						<button onClick="output()" class="button contact_button" type="submit"><span>確定</span></button>
+						<a href="Sign_in.html" class="btn btn-light">   忘記密碼？</a>
 					</form>
 				</div>
 			</div>
@@ -330,24 +340,24 @@
 		<div class="col-lg-3 offset-xl-1 contact_col">
 			<div class="contact_info">
 				<div class="contact_info_section">
-					<div class="contact_info_title">Marketing</div>
+					<div class="contact_info_title">輔仁大學</div>
 					<ul>
-						<li>Phone: <span>+53 345 7953 3245</span></li>
-						<li>Email: <span>yourmail@gmail.com</span></li>
+						<li>Phone: <span>02 2905 2000</span></li>
+						<li>Address: <span>24205 新北市新莊區中正路510號</span></li>
 					</ul>
 				</div>
 				<div class="contact_info_section">
-					<div class="contact_info_title">Shippiing & Returns</div>
+					<div class="contact_info_title">資管系秘書室-大學部</div>
 					<ul>
-						<li>Phone: <span>+53 345 7953 3245</span></li>
-						<li>Email: <span>yourmail@gmail.com</span></li>
+						<li>Phone: <span>02 2905 2666</span></li>
+						<li>FAX:   <span>02 2905 2182</span></li>
 					</ul>
 				</div>
 				<div class="contact_info_section">
-					<div class="contact_info_title">Information</div>
+					<div class="contact_info_title">資管系秘書室-碩士班</div>
 					<ul>
-						<li>Phone: <span>+53 345 7953 3245</span></li>
-						<li>Email: <span>yourmail@gmail.com</span></li>
+						<li>Phone: <span>02 2905 2940</span></li>
+						<li>FAX: <span>02 2905 2182</span></li>
 					</ul>
 				</div>
 			</div>
