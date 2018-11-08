@@ -963,7 +963,7 @@ section
 }
 .contact_info_title
 {
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 500;
 	color: #1b1b1b;
 }
@@ -973,7 +973,7 @@ section
 }
 .contact_info_section ul li
 {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 400;
 	color: #1b1b1b;
 }
@@ -985,6 +985,9 @@ section
 {
 	color: #6c6a74;
 	margin-left: 8px;
+	color:black;
+	font-size:20px;
+	font-weight: bold
 }
 .map_row
 {

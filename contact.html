@@ -293,7 +293,7 @@
 					</form>
 				</div>
 				<div class="contact_form_container">
-					<form action=""id="contact_form" class="contact_form">
+					<form action="#" id="contact_form" class="contact_form">
 						<div class="row">
 							<div class="col-xl-12">
 								<!-- Name -->
@@ -306,50 +306,46 @@
 								<input type="password" id="contact_last_name" class="contact_input" required="required">
 							</div>
 						</div>
-								<!-- JSP跳轉(無post數值(需添加)) -->
+						<!-- JSP跳轉(無post數值(需添加)) -->
 						<script>
 
-								function output()
-								{
-									if(document.getElementById("teacher").checked)
-									{
-										window.location="teacher.html";
-									}
-								 
-									if(document.getElementById("student").checked)
-									{
-										window.location="student.html";
-									}
-									if(document.getElementById("admin").checked)
-									{
-										window.location="admin.html";
-										
-									}
+							function output() {
+								if (document.getElementById("teacher").checked) {
+									window.location = "teacher.html";
 								}
+
+								if (document.getElementById("student").checked) {
+									window.location = "student.html";
+								}
+								if (document.getElementById("admin").checked) {
+									window.location = "admin.html";
+
+								}
+							}
 						</script>
-						
+
 						<button onClick="output()" class="button contact_button" type="submit"><span>確定</span></button>
-						<a href="Sign_in.html" class="btn btn-light">   忘記密碼？</a>
+						<a href="Sign_in.html" class="btn btn-light"> 忘記密碼？</a>
 					</form>
 				</div>
 			</div>
 		</div>
 
 		<!-- Contact Info -->
-		<div class="col-lg-3 offset-xl-1 contact_col">
+		<div class="col-lg-3 offset-xl-2 contact_col">
 			<div class="contact_info">
 				<div class="contact_info_section">
 					<div class="contact_info_title">輔仁大學</div>
 					<ul>
 						<li>Phone: <span>02 2905 2000</span></li>
-						<li>Address: <span>24205 新北市新莊區中正路510號</span></li>
+						<li>Address: <span>24205 新北市新莊區中正路510號</span><br></li>
 					</ul>
 				</div>
 				<div class="contact_info_section">
 					<div class="contact_info_title">資管系秘書室-大學部</div>
 					<ul>
 						<li>Phone: <span>02 2905 2666</span></li>
-						<li>FAX:   <span>02 2905 2182</span></li>
+						<li>FAX: <span>02 2905 2182</span></li>
 					</ul>
 				</div>
 				<div class="contact_info_section">

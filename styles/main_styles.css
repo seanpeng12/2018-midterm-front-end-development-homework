@@ -999,29 +999,34 @@ section
 .avds_small_content
 {
 	max-width: 250px;
-	padding-top: 57px;
-	padding-left: 31px;
-	padding-right: 30px;
+	padding-top: 10px;
+	padding-left: 80px;
+	padding-right: 3px;
 }
 .avds_title
 {
-	font-size: 48px;
-	font-weight: 600;
-	color: #FFFFFF;
+	padding-top: 7px;
+	padding-left: 70px;
+	padding-bottom: 30px;
+	font-size: 25px;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
 	line-height: 1.16;
+	font-family:'Microsoft JhengHei';
 }
 .avds_link
 {
+	color: rgb(0, 0, 0);
 	margin-top: 18px;
-	padding-left: 4px;
+	padding-left: 270px;
 }
 .avds_link a
 {
 	position: relative;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 40px;
 	font-weight: 400;
-	color: #FFFFFF;
+	color: rgb(0, 0, 0);
 }
 .avds_link a::after
 {
@@ -1062,7 +1067,8 @@ section
 }
 .avds_text
 {
-	font-size: 14px;
+	font-size: 20px;
+	font-family:'Microsoft JhengHei';
 	font-weight: 400;
 	color: #FFFFFF;
 	line-height: 2.14;
