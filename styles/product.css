@@ -1149,7 +1149,7 @@ section
 .description_title
 {
 	display: inline-block;
-	font-size: 24px;
+	font-size: 40px;
 	font-weight: 500;
 	color: #1b1b1b;
 }
@@ -1175,7 +1175,9 @@ section
 }
 .description_text
 {
-	margin-top: 44px;
+	margin-top: 48px;
+	color: black;
+	font-size: 18px;
 }
 
 /*********************************
